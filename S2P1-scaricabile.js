@@ -93,7 +93,10 @@ l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un cos
 Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// let totalShoppingCart = 49;
+
+// (totalShoppingCart < 50) ? (totalShoppingCart += 10) : null;
+// console.log(totalShoppingCart);
 
 /* ESERCIZIO EXTRA 3
   Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
