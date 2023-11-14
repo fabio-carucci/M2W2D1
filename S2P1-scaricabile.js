@@ -4,9 +4,9 @@
  Scrivi un algoritmo per trovare il più grande tra due numeri interi.
 */
 
-let number1 = 10;
-let number2 = 4;
-(number1 > number2) ? console.log("Il valore pù grande è " + number1) : console.log("Il valore pù grande è " + number2);
+// let number1 = 10;
+// let number2 = 4;
+// (number1 > number2) ? console.log("Il valore pù grande è " + number1) : console.log("Il valore pù grande è " + number2);
 
 /*
 ESERCIZIO 2
@@ -19,19 +19,19 @@ ESERCIZIO 2
   num >= 20 - mostra in console "Huge"
 */
 
-let num = 13;
+// let num = 13;
 
-if (num < 5) {
-  console.log("Tiny");
-} else if (num < 10){
-  console.log("Small");
-} else if (num < 15){
-  console.log("Medium");
-} else if (num < 20){
-  console.log("Large");
-} else {
-  console.log("Huge");
-}
+// if (num < 5) {
+//   console.log("Tiny");
+// } else if (num < 10){
+//   console.log("Small");
+// } else if (num < 15){
+//   console.log("Medium");
+// } else if (num < 20){
+//   console.log("Large");
+// } else {
+//   console.log("Huge");
+// }
 
 //ESERCIZI SUI CICLI: 
 
@@ -52,13 +52,13 @@ for(let i=0; i<=10; i++){
   il valore corrente sia pari o dispari, e mostrare il risultato in console.
 */
 
-for(let i=0; i<=15; i++){
-  if(i % 2 === 0){
-    console.log("Il numero " + i + " è pari");
-  } else {
-    console.log("Il numero " + i + " è dispari")
-  }
-}
+// for(let i=0; i<=15; i++){
+//   if(i % 2 === 0){
+//     console.log("Il numero " + i + " è pari");
+//   } else {
+//     console.log("Il numero " + i + " è dispari")
+//   }
+// }
 
 //ESERCIZI EXTRA NON OBBLIGATORI
 
@@ -67,7 +67,24 @@ for(let i=0; i<=15; i++){
   se la loro addizione/sottrazione sia uguale a 8.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// let num1 = 8;
+// let num2 = 16;
+
+// if (num1 === 8 || num2 === 8) {
+//   if (num1 === 8){
+//     console.log("La variabile num1 è uguale a 8");
+//   } else {
+//     console.log("La variabile num2 è uguale a 8");
+//   }
+// } else if ((num1 + num2) === 8 || Math.abs(num1 - num2) === 8 ) {
+//   if ((num1 + num2) === 8) {
+//     console.log("La somma tra le due variabili è pari a 8");
+//   } else {
+//     console.log("La differenza tra le due variabili è pari a 8");
+//   }
+// } else {
+//   console.log("Le due variabili inserite non sono pari a 8 e neanche la loro addizione e sottrazione è pari a 8");
+// }
 
 /* ESERCIZIO EXTRA 2
 Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile 
