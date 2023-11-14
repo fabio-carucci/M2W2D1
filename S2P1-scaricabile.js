@@ -40,12 +40,12 @@ ESERCIZIO 2
   ripassa l'uso di "continue").
 */
 
-for(let i=0; i<=10; i++){
-  if(i === 3 || i === 8){ 
-    continue;
-  }
-  console.log(i);
-}
+// for(let i=0; i<=10; i++){
+//   if(i === 3 || i === 8){ 
+//     continue;
+//   }
+//   console.log(i);
+// }
 
 /* ESERCIZIO 4
   Scrivi un ciclo in JavaScript per iterare da 0 a 15. Per ciascun elemento, il ciclo deve controllare che
@@ -104,7 +104,7 @@ Crea un algoritmo che determini l'ammontare totale che deve essere addebitato al
   usando l'algoritmo del codice precedente, se le spedizioni siano gratuite oppure no e e calcolando il totale.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+
 
 /*  ESERCIZIO EXTRA 4
   Usa un operatore ternaio per assegnare ad una variabile chiamata "gender" i valori "male" o "female".
