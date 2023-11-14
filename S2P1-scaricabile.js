@@ -19,7 +19,7 @@ ESERCIZIO 2
   num >= 20 - mostra in console "Huge"
 */
 
-let num = 14;
+let num = 13;
 
 if (num < 5) {
   console.log("Tiny");
