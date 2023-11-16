@@ -104,7 +104,11 @@ Crea un algoritmo che determini l'ammontare totale che deve essere addebitato al
   usando l'algoritmo del codice precedente, se le spedizioni siano gratuite oppure no e e calcolando il totale.
 */
 
+// let totalShoppingCart = 51;
 
+// totalShoppingCart -= totalShoppingCart * 0.2;
+// (totalShoppingCart < 50) ? (totalShoppingCart += 10) : null;
+// console.log(totalShoppingCart)
 
 /*  ESERCIZIO EXTRA 4
   Usa un operatore ternaio per assegnare ad una variabile chiamata "gender" i valori "male" o "female".
@@ -112,10 +116,24 @@ Crea un algoritmo che determini l'ammontare totale che deve essere addebitato al
   Es. se isMale e' vero, il valore di gender deve essere "male"
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// let gender;
+// let isMale = true;
+
+// isMale ? (gender = "male") : (gender = "female");
+// console.log(gender);
 
 /* ESERCIZIO EXTRA 5
   Scrivi un algoritmo che iteri i numeri da 1 a 100, stampandoli in console. 
   Se un valore tuttavia è multiplo di 3 (operatore modulo!), stampa al suo posto la parola "Fizz" 
   e se il numero è multiplo di 5, stampa "Buzz". Se le condizioni si verificano entrambe, stampa "FizzBuzz".
 */
+
+// for(let i=1; i<=100; i++){
+//   if(i % 3 === 0){
+//     console.log("Fizz");
+//   } else if(i % 5 === 0){
+//     console.log("Buzz");
+//   } else {
+//     console.log(i);
+//   }
+// }
